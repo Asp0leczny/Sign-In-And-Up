@@ -60,7 +60,12 @@ form .row{
     border-bottom: 2px solid #ccc;
     border-top: 2px solid transparent;
     font-size: 25px;
+    transition: all 0.5s ease ;
 
+}
+
+.row input:is(:focus, :valid){
+    border-bottom-color: #01497c;
 }
 
  .row i{
@@ -69,7 +74,10 @@ form .row{
     font-size: 25px;
     transform: translateY(-50%);
     color:#999;
-    
+}
+
+.row input:is(:focus, :valid) ~ i{
+    color: #01497c;
 }
 
  .row i.icon{
