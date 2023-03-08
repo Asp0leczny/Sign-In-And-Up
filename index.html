@@ -13,26 +13,39 @@
 </head>
 <body>
     <div class="container">
-        <div class="form">
-            <span class="login">Login</span>
-        </div>
-        <form action="#">
-            <div class="row">
-                <input type="email" name="email" id="email" placeholder="Email" required>
-                <i class="fa-sharp fa-solid fa-envelope icon"></i>
-            </div>
-            <div class="row">
-                <input type="password" name="password" id="password" placeholder="Password" required>
-                <i class="fa-sharp fa-solid fa-lock icon"></i>
-                <i class="fa-sharp fa-solid fa-eye-slash pass" ></i>
-            </div>
-            <div class="checkbox-text">
-                <div class="checkbox-content">
-                    <input type="checkbox" name="logcheck" id="logcheck">
-                    <label for="logcheck" class="text"></label>
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Login</span>
+                <form action="#">
+                    <div class="row">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <i class="fa-sharp fa-solid fa-envelope icon"></i>
+                    </div>
+                    <div class="row">
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                        <i class="fa-sharp fa-solid fa-lock icon"></i>
+                        <i class="fa-sharp fa-solid fa-eye-slash pass" ></i>
+                    </div>
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" name="logcheck" id="logcheck">
+                            <label for="logcheck" class="text">Remember me</label>
+                        </div>
+                    <a href="#" class="text"> Forgot password?</a>
+                    </div>
+                    <div class="row button">
+                        <input type="button"  value="Login Now">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Not a member?
+                        <a href="#" class="text signup-text">Signup now</a>
+                    </span>
+
                 </div>
             </div>
-        </form>
+         </div>
     </div>
 </body>
 </html>
