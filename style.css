@@ -42,14 +42,14 @@ body{
     border-radius: 15px;
 }
 
-.form .row{
+.form .input-field{
     background-color: bisque;
     position: relative;
     height: 50px;
     margin-top: 30px;
 }
 
- .row input{
+ .input-field input{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -63,11 +63,11 @@ body{
 
 }
 
-.row input:is(:focus, :valid){
+.input-field input:is(:focus, :valid){
     border-bottom-color: #01497c;
 }
 
- .row i{
+ .input-field i{
     position: absolute;
     top: 50%;
     font-size: 25px;
@@ -75,15 +75,15 @@ body{
     color:#999;
 }
 
-.row input:is(:focus, :valid) ~ i{
+.input-field input:is(:focus, :valid) ~ i{
     color: #01497c;
 }
 
- .row i.icon{
+ .input-field i.icon{
     left: 0;
 }
 
-.row i.pass{
+.input-field i.pass{
     right: 0;
     padding: 10px;
     cursor: pointer;
