@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <!-- Icons  -->
     <script src="https://kit.fontawesome.com/9f1d9d4797.js" crossorigin="anonymous"></script>
-    
     <title>sign in and sign up</title>
 </head>
 <body>
     <div class="container">
         <div class="forms">
+            <!-- LOGIN FORM  -->
+
             <div class="form login">
                 <span class="title">Login</span>
                 <form action="#">
@@ -24,28 +25,67 @@
                     <div class="row">
                         <input type="password" name="password" id="password" placeholder="Password" required>
                         <i class="fa-sharp fa-solid fa-lock icon"></i>
-                        <i class="fa-sharp fa-solid fa-eye-slash pass" ></i>
+                        <i class="fa-sharp fa-solid fa-eye-slash pass"></i>
                     </div>
                     <div class="checkbox-text">
                         <div class="checkbox-content">
                             <input type="checkbox" name="logcheck" id="logcheck">
                             <label for="logcheck" class="text">Remember me</label>
                         </div>
-                    <a href="#" class="text"> Forgot password?</a>
+                        <a href="#" class="text"> Forgot password?</a>
                     </div>
                     <div class="row button">
-                        <input type="button"  value="Login Now">
+                        <input type="button" value="Login Now">
                     </div>
                 </form>
-
                 <div class="login-signup">
                     <span class="text">Not a member?
                         <a href="#" class="text signup-text">Signup now</a>
                     </span>
-
                 </div>
             </div>
-         </div>
+
+            <!-- REGISTRATION FORM -->
+
+            <div class="form registration">
+                <span class="title">Registration</span>
+                <form action="#">
+                    <div class="row">
+                        <input type="text"  placeholder="Enter your name" required>
+                        <i class="fa-sharp fa-solid fa-user icon"></i>
+                    </div>
+                    <div class="row">
+                        <input type="text" name="email" id="email" placeholder="Email" required>
+                        <i class="fa-sharp fa-solid fa-envelope icon"></i>
+                    </div>
+                    <div class="row">
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                        <i class="fa-sharp fa-solid fa-lock icon"></i>
+                    </div>
+                    <div class="row">
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                        <i class="fa-sharp fa-solid fa-lock icon"></i>
+                        <i class="fa-sharp fa-solid fa-eye-slash pass"></i>
+                    </div>
+                    <div class="checkbox-text">
+                    <div class="checkbox-content">
+                            <input type="checkbox" name="logcheck" id="logcheck">
+                            <label for="logcheck" class="text">Remember me</label>
+                        </div>
+                        <a href="#" class="text"> Forgot password?</a>
+                    </div>
+                    <div class="row button">
+                        <input type="button" value="Login Now">
+                    </div>
+                </form>
+                <div class="login-signup">
+                    <span class="text">Not a member?
+                        <a href="#" class="text signup-text">Signup now</a>
+                    </span>
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
 </html>
