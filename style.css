@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(../background/wave-haikei.svg);
+    background-image: url(./background/wave-haikei.svg);
     background-size: cover;
     height: 100vh;
     display: flex;
